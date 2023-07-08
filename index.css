@@ -30,7 +30,71 @@
 .bannarcon{
     display: flex;
     justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+   
+     color: white;
+    background-image: url("images/background.png"),
+    linear-gradient(45deg,#0a0909,#140707)
+    
 }
 .imgb{
     width: 300px;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.para{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btn:hover{
+    color: rgb(48, 27, 207);
+}
+.aboutcon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.abus{
+    font-size: 50px;
+    font-weight: bold;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 5px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+.icon{
+    width: 70px;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-des{
+    padding: 8px;
 }
