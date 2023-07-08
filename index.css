@@ -98,3 +98,8 @@
 .box-des{
     padding: 8px;
 }
+.servicecon{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(23, 1, 1);
+}
