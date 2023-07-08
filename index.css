@@ -27,3 +27,10 @@
 .item:hover{
     color: blue;
 }
+.bannarcon{
+    display: flex;
+    justify-content: space-around;
+}
+.imgb{
+    width: 300px;
+}
