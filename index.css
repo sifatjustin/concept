@@ -101,5 +101,27 @@
 .servicecon{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(23, 1, 1);
+    background-image: url(images/background.png);
+    background-color: rgb(21, 20, 20);
+}
+.footer-container{
+    display: flex;
+   
+    justify-content: space-around;
+    background-image: url(images/background.png);
+    background-color: #1e1b1b;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo-box{
+    width: 30pxpx;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/background.png);
+    background-color: #1a1818;
+    color: white;
+    padding: 20px;
 }
